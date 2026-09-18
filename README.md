@@ -36,3 +36,11 @@ This website was created to improve the business’s online presence, provide in
 - Improve styling with advanced CSS (flexbox/grid layouts).  
 - Make the site mobile‑friendly with responsive design.  
 - Connect enquiry form to backend for real submissions.
+
+  ## Changelog
+- v1.0: Initial commit with index.html  
+- v1.1: Added about.html and services.html pages  
+- v1.2: Linked CSS stylesheet and applied styling  
+- v1.3: Added enquiry form and contact page  
+- v1.4: Improved responsiveness with media queries  
+- v1.5: Finalized README.md and proposal document  
