@@ -1,0 +1,141 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #0077b6;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Service sections */
+section {
+  margin-bottom: 40px;
+}
+
+section h3 {
+  color: #0077b6;
+}
+
+/* Images */
+section img {
+  width: 200px;       /* makes images same size */
+  margin: 10px;       /* space between images */
+  border-radius: 5px; /* rounded corners */
+}
+
+/* Footer */
+footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+/* Center content on homepage */
+main section {
+  text-align: center;
+}
+
+/* Style homepage image */
+.homepage-img {
+  display: block;
+  margin: 20px auto;   /* centers horizontally */
+  width: 300px;        /* adjust size */
+  border-radius: 8px;  /* rounded corners */
+}
+
+/* Style Book Now link like a button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0077b6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background: #023e8a;
+}
+
+/* Make images scale properly */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigation bar: stack links on small screens */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    padding: 10px;
+    font-size: 18px;
+  }
+}
+
+/* Form fields: full width on mobile */
+@media (max-width: 600px) {
+  form input,
+  form select,
+  form textarea,
+  form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Text scaling */
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section img {
+  flex: 1 1 200px;
+}
