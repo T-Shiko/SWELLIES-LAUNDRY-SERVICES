@@ -37,15 +37,6 @@ This website was created to improve the business’s online presence, provide in
 - Make the site mobile‑friendly with responsive design.  
 - Connect enquiry form to backend for real submissions.
 
-<<<<<<< HEAD
-  ## Changelog
-- v1.0: Initial commit with index.html  
-- v1.1: Added about.html and services.html pages  
-- v1.2: Linked CSS stylesheet and applied styling  
-- v1.3: Added enquiry form and contact page  
-- v1.4: Improved responsiveness with media queries  
-- v1.5: Finalized README.md and proposal document  
-=======
 ## Part 2 update
 
 ### Part 1 (Initial Build)
@@ -70,17 +61,16 @@ This website was created to improve the business’s online presence, provide in
 ## Screenshots
 
 ### iPhone 16 View
-![iPhone 16 Screenshot](images/Different Devices screenshots/iphone16.png)
+![iPhone 16 Screenshot](images/Different_Device_Screenshots/iphone16.png)
 
 ### Samsung Galaxy A55 View
-![Galaxy A55 Screenshot](images/Different Devices screenshots/sgA55.png)
+![Galaxy A55 Screenshot](images/Different_Device_Screenshots/sgA55.png)
 
 ### Galaxy Z Fold 6 View
-![Z Fold 6 Screenshot](images/Different Devices screenshots/gzfold6.png)
+![Z Fold 6 Screenshot](images/Different_Device_Screenshots/gzfold6.png)
 
 ### iPad Pro 13 View
-![iPad Pro Screenshot](images/Different Devices screenshots/ipadpro13.png)
+![iPad Pro Screenshot](images/Different_Device_Screenshots/ipadpro13.png)
 
 ### Nest Hub Max View
-![Nest Hub Max Screenshot](images/Different Devices screenshots/nesthubmax.png)
->>>>>>> 464fa2c (Updated README with screenshots, fixed folder structure)
+![Nest Hub Max Screenshot](images/Different_Device_Screenshots/nesthubmax.png)

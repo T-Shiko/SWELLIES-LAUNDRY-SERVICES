@@ -19,19 +19,19 @@
   </header>
 
   <main>
-    <section>      
+    <section>
       <h2>Book a Laundry Service</h2>
       <p>Please fill out the form below to request a pickup, delivery, or ask us a question.</p>
       
       <form action="#" method="post">
         <label for="name">Full Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+        <input type="text" id="name" name="name" class="form-input" required><br><br>
 
         <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" class="form-input" required><br><br>
 
         <label for="service">Service Required:</label><br>
-        <select id="service" name="service" required>
+        <select id="service" name="service" class="form-select" required>
           <option value="">-- Select a Service --</option>
           <option value="washing">Washing & Drying</option>
           <option value="ironing">Ironing</option>
@@ -40,12 +40,12 @@
         </select><br><br>
 
         <label for="date">Preferred Date:</label><br>
-        <input type="date" id="date" name="date"><br><br>
+        <input type="date" id="date" name="date" class="form-input"><br><br>
 
         <label for="message">Additional Notes:</label><br>
-        <textarea id="message" name="message" rows="4"></textarea><br><br>
+        <textarea id="message" name="message" rows="4" class="form-textarea"></textarea><br><br>
 
-        <button type="submit">Submit Enquiry</button>
+        <button type="submit" class="form-button">Submit Enquiry</button>
       </form>
     </section>
   </main>
@@ -53,6 +53,8 @@
   <footer>
     <p>&copy; 2026 Swellies Laundry Services</p>
   </footer>
+
+  <!-- Link to JavaScript -->
+  <script src="js/script.js"></script>
 </body>
 </html>
-
