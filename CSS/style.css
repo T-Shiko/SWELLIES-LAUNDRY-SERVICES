@@ -31,20 +31,27 @@ main {
   padding: 20px;
 }
 
+/* Homepage image */
+.homepage-img {
+  display: block;
+  margin: 20px auto;
+  width: 300px;        /* fixed size */
+  border-radius: 8px;
+}
+
 /* Service sections */
-section {
+.services-section {
   margin-bottom: 40px;
+  text-align: center;
 }
 
-section h3 {
-  color: #0077b6;
-}
-
-/* Images */
-section img {
-  width: 200px;       /* makes images same size */
-  margin: 10px;       /* space between images */
-  border-radius: 5px; /* rounded corners */
+/* Service images */
+.service-img {
+  width: 200px;        /* fixed width on desktop */
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+  object-fit: cover;
 }
 
 /* Footer */
@@ -56,20 +63,7 @@ footer {
   margin-top: 20px;
 }
 
-/* Center content on homepage */
-main section {
-  text-align: center;
-}
-
-/* Style homepage image */
-.homepage-img {
-  display: block;
-  margin: 20px auto;   /* centers horizontally */
-  width: 300px;        /* adjust size */
-  border-radius: 8px;  /* rounded corners */
-}
-
-/* Style Book Now link like a button */
+/* Book Now button */
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -84,13 +78,7 @@ main section {
   background: #023e8a;
 }
 
-/* Make images scale properly */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Navigation bar: stack links on small screens */
+/* Responsive navigation */
 @media (max-width: 768px) {
   nav {
     display: flex;
@@ -113,6 +101,11 @@ img {
     width: 100%;
     margin-bottom: 10px;
   }
+
+  .service-img {
+    width: 100%;       /* full width on small screens */
+    max-width: 300px;  /* don’t exceed 300px */
+  }
 }
 
 /* Text scaling */
@@ -131,13 +124,28 @@ img {
   }
 }
 
-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+/* Make body fill screen and push footer down */
+html, body {
+  height: 100%;
+  margin: 0;
 }
-section img {
-  flex: 1 1 200px;
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content grows to fill space */
+main {
+  flex: 1;
+}
+
+/* Footer stays at bottom without extra gap */
+footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
 /* Responsive design improvements */
 
