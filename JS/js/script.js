@@ -63,7 +63,7 @@ if (enquiryForm) {
       return;
     }
 
-    // Prepare a response for the customer
+    // Responding to the customer
     
 let responseMessage =
   "Thank you, " + name + "! " +
