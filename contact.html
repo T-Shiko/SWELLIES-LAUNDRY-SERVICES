@@ -1,16 +1,27 @@
-<!-- Contact page section -->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Swellies Laundry</title>
+
+  <title>Contact Us | Swellies Laundry Services</title>
+
+  <meta name="description"
+        content="Contact Swellies Laundry Services in Swellendam for questions, feedback and general laundry service information.">
+
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+  <!-- Website Header -->
   <header>
-    <img src="images/Logo.jpeg" alt="Swellies Laundry Logo" width="120">
-    <h1>Contact Us</h1>      
+    <img src="images/Logo.jpeg" alt="Swellies Laundry Services logo">
+
+    <h1>Contact Us</h1>
+
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
@@ -21,14 +32,118 @@
   </header>
 
   <main>
-    <p>Phone: 012-345-6789</p>
-    <p>Email: info@swellieslaundry.co.za</p>
-    <p>Address: 123 Main Street, Swellendam</p>
+
+    <!-- Contact Introduction -->
+    <section class="contact-intro">
+      <h2>We'd Love to Hear From You!</h2>
+
+      <p>
+        Have a question, suggestion or concern?
+        Complete the contact form below to prepare a message
+        for Swellies Laundry Services.
+      </p>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-details">
+      <h2>Our Contact Details</h2>
+
+      <p><strong>Phone:</strong> 012-345-6789</p>
+      <p><strong>Email:</strong> info@swellieslaundry.co.za</p>
+      <p><strong>Service Area:</strong> 
+      Swellendam, Western Cape (Proposed Service Area)
+      </p>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+      <h2>Send Us a Message</h2>
+
+      <form id="contactForm">
+
+        <label for="contactName">Full Name:</label>
+        <input
+          type="text"
+          id="contactName"
+          name="contactName"
+          placeholder="Enter your full name"
+          minlength="2"
+          required
+        >
+
+        <label for="contactEmail">Email Address:</label>
+        <input
+          type="email"
+          id="contactEmail"
+          name="contactEmail"
+          placeholder="Enter your email address"
+          required
+        >
+
+        <label for="messageType">Message Type:</label>
+        <select id="messageType" name="messageType" required>
+          <option value="">-- Select message type --</option>
+          <option value="General Enquiry">General Enquiry</option>
+          <option value="Feedback">Feedback</option>
+          <option value="Complaint">Complaint</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="contactMessage">Your Message:</label>
+        <textarea
+          id="contactMessage"
+          name="contactMessage"
+          placeholder="Type your message here..."
+          minlength="10"
+          maxlength="1000"
+          required
+        ></textarea>
+
+        <button type="submit">Prepare Email</button>
+
+        <div id="contactResponse" aria-live="polite"></div>
+
+      </form>
+    </section>
+
+    
+<!-- Business Location Map -->
+<section class="location-section">
+
+  <h2>Our Location</h2>
+
+  <p>
+    Swellies Laundry Services is a proposed laundry
+    business serving the Swellendam community in
+    the Western Cape, South Africa.
+  </p>
+
+  <div class="map-container">
+    <iframe
+      title="Map showing Swellendam, Western Cape"
+      src="https://maps.google.com/maps?q=Swellendam%2C%20Western%20Cape%2C%20South%20Africa&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+      width="100%"
+      height="350"
+      style="border:0;"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</section>
+
   </main>
 
+  <!-- Website Footer -->
   <footer>
-    <p>&copy; 2026 Swellies Laundry Services</p>
+    <p>&copy; 2026 Swellies Laundry Services. All rights reserved.</p>
+    <p>Keeping your laundry fresh and your life simple!</p>
   </footer>
-  <script src="js/script.js"></script>
+
+  <!-- Keep the correct JavaScript path -->
+  <script src="JS/js/script.js"></script>
+
 </body>
 </html>
+
