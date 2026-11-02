@@ -70,16 +70,9 @@ let responseMessage =
   "Here is a summary of your laundry enquiry. " +
   "Selected service: " + service + ". " +
   "Preferred date: " + date + ". " +
-  "Availability and pricing would need to be confirmed " +
-  "before a booking can be made. " +
-  "Please note: This is a demonstration form. " +
-  "Your enquiry has not been sent or saved.";
-
-
-    // Include additional notes if the customer provided them
-    if (notes) {
-      responseMessage += " Your additional information has also been included.";
-    }
+  "Availability and pricing will need to be confirmed " +
+  "before a booking can be made. " 
+     
 
     // Display the response
     enquiryResponse.textContent = responseMessage;
@@ -193,6 +186,7 @@ const serviceCards = document.querySelectorAll(
 
 const filterButtons = document.querySelectorAll(".filter-btn");
 const noServicesMessage = document.querySelector("#noServicesMessage");
+const serviceCount = document.querySelector("#serviceCount");
 
 // Only run this code on the Services page
 if (serviceSearch && noServicesMessage) {
@@ -236,7 +230,14 @@ if (serviceSearch && noServicesMessage) {
 
     // Show a message if no services match
     noServicesMessage.hidden = visibleCount > 0;
-  }
+  
+if (serviceCount) {
+  serviceCount.textContent =
+    "Showing " + visibleCount + " of " +
+    serviceCards.length + " services";
+    filterServices();
+}
+ }
 
   // Search immediately as the customer types
   serviceSearch.addEventListener("input", filterServices);
