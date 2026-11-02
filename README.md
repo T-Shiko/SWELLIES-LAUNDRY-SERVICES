@@ -4,8 +4,6 @@
 
 Swellies Laundry Services is a fictional laundry business concept based in Swellendam, Western Cape, South Africa.
 
-The website was developed as part of the WEDE5020 Portfolio of Evidence (POE) project. Its purpose is to demonstrate how a small laundry business could establish an online presence, provide service information, and allow customers to make enquiries.
-
 The website is designed for families, students, working professionals, and small businesses looking for convenient laundry solutions.
 
 ## Website Objectives
@@ -207,22 +205,24 @@ Future improvements could include:
 
 Specific image credits, tutorial titles, and access dates should be added where required by the assignment.
 
+
 ## Screenshots
 
 ### iPhone 16 View
-![iPhone 16 Screenshot](images/Different_Device_Screenshots/iphone16.png)
+![iPhone 16 Screenshot](IMAGES/Different_Device%20_Screenshots/iphone16.png)
 
 ### Samsung Galaxy A55 View
-![Galaxy A55 Screenshot](images/Different_Device_Screenshots/sgA55.png)
+![Galaxy A55 Screenshot](IMAGES/Different_Device%20_Screenshots/sgA55.png)
 
 ### Galaxy Z Fold 6 View
-![Z Fold 6 Screenshot](images/Different_Device_Screenshots/gzfold6.png)
+![Galaxy Z Fold 6 Screenshot](IMAGES/Different_Device%20_Screenshots/gzfold6.png)
 
 ### iPad Pro 13 View
-![iPad Pro Screenshot](images/Different_Device_Screenshots/ipadpro13.png)
+![iPad Pro Screenshot](IMAGES/Different_Device%20_Screenshots/ipadpro13.png)
 
 ### Nest Hub Max View
-![Nest Hub Max Screenshot](images/Different_Device_Screenshots/nesthubmax.png)
+![Nest Hub Max Screenshot](IMAGES/Different_Device%20_Screenshots/nesthubmax.png)
+
 
 ## Deployment
 
