@@ -195,7 +195,7 @@ Future improvements could include:
 - **Pexels:** https://www.pexels.com/ — Laundry-related imagery.
 - **Pixabay:** https://pixabay.com/ — Images and visual resources.
 - **W3Schools:** https://www.w3schools.com/ — HTML, CSS, and JavaScript learning resources.
-- **YouTube:** Tutorials used during website development.
+- **Bro Code:** [HTML & CSS Full Course](https://youtu.be/HGTJBPNC-Gw) — YouTube tutorial used as a learning resource during website development.
 - **Google Maps:** https://maps.google.com/ — Embedded location map.
 - **AI-assisted design:** Assistance with logo design and website development.
 
