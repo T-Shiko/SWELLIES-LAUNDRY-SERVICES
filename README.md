@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Swellies Laundry Services is a fictional laundry business concept based in Swellendam, Western Cape, South Africa.
+Swellies Laundry Services is a laundry business concept based in Swellendam, Western Cape, South Africa.
 
 The website is designed for families, students, working professionals, and small businesses looking for convenient laundry solutions.
 
@@ -183,8 +183,6 @@ Further final testing will include mobile responsiveness, image lightbox functio
 
 ## Limitations and Future Improvements
 
-Swellies Laundry Services is a fictional student project. The contact details and business information are for demonstration purposes.
-
 Future improvements could include:
 
 - Connecting enquiry forms to a backend and database.
@@ -202,8 +200,6 @@ Future improvements could include:
 - **YouTube:** Tutorials used during website development.
 - **Google Maps:** https://maps.google.com/ — Embedded location map.
 - **AI-assisted design:** Assistance with logo design and website development.
-
-Specific image credits, tutorial titles, and access dates should be added where required by the assignment.
 
 
 ## Screenshots
