@@ -76,7 +76,6 @@ The Enquiry page allows visitors to enter their contact details, select a servic
 
 JavaScript validates the form and displays a personalised summary of the enquiry.
 
-**Limitation:** This is a demonstration form. Enquiry information is not currently stored in a database or sent to the business. A backend or form-processing service would be required for real submissions.
 
 ### 6. Contact Form
 
@@ -107,7 +106,6 @@ The website includes the following SEO improvements:
 - `robots.txt` file.
 - `sitemap.xml` file.
 
-**Note:** The sitemap currently contains placeholder URLs that must be replaced with the actual website address after deployment.
 
 ## Timeline and Milestones
 
@@ -220,8 +218,11 @@ Future improvements could include:
 ![Nest Hub Max Screenshot](IMAGES/Different_Device%20_Screenshots/nesthubmax.png)
 
 
+
 ## Deployment
 
-The website will be deployed using GitHub Pages or another suitable static hosting service.
+The Swellies Laundry Services website is published online.
 
-The live website URL will be added after deployment.
+Live Website: https://t-shiko.github.io/SWELLIES-LAUNDRY-SERVICES/
+
+The website is hosted using GitHub Pages.
