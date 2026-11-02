@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://example.com/index.html</loc>
+    <loc>https://t-shiko.github.io/SWELLIES-LAUNDRY-SERVICES/</loc>
   </url>
+
   <url>
-    <loc>https://example.com/about.html</loc>
+    <loc>https://t-shiko.github.io/SWELLIES-LAUNDRY-SERVICES/about.html</loc>
   </url>
+
   <url>
-    <loc>https://example.com/services.html</loc>
+    <loc>https://t-shiko.github.io/SWELLIES-LAUNDRY-SERVICES/services.html</loc>
   </url>
+
   <url>
-    <loc>https://example.com/enquiry.html</loc>
+    <loc>https://t-shiko.github.io/SWELLIES-LAUNDRY-SERVICES/enquiry.html</loc>
   </url>
+
   <url>
-    <loc>https://example.com/contact.html</loc>
+    <loc>https://t-shiko.github.io/SWELLIES-LAUNDRY-SERVICES/contact.html</loc>
   </url>
+
 </urlset>
